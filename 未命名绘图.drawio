@@ -1,1 +1,196 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T09:42:02.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.7" etag="du0kGtzpMLJgxmC75NY9" type="github"><diagram id="EUTkzrgzpGbVbgCxGCXc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-09T07:18:07.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="WpHQchJxReDcgVgE8t0u" version="13.9.2" type="github">
+  <diagram id="EUTkzrgzpGbVbgCxGCXc" name="第 1 页">
+    <mxGraphModel dx="988" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-3" value="监测数据" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-4" value="监测数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="180" height="100" as="geometry">
+            <mxRectangle x="50" y="70" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-7" value="URL：http://www.example.com&#xa;Frequency: 300 （单位秒）&#xa;AppId: panyun&#xa;Node: 监测节点（默认全部）&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pKSHZECXTn_SGAuCB59Q-4">
+          <mxGeometry y="26" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-11" value="Mysql" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-12" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="10" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-14" value="检测合法性" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-16" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-17" value="获取最新的监测资产" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-18" value="worker1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-19" value="workern" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-20" value="worker2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-27" value="资产下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="609.9999151317077" y="331.49682481819525" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-28" value="资产下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="469.9999151317076" y="331.49682481819525" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-30" value="sqlite" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-31" value="sqlite" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-32" value="sqlite" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-33" value="" style="endArrow=classic;html=1;entryX=0.575;entryY=0.214;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-18" target="pKSHZECXTn_SGAuCB59Q-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-36" value="监测结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pKSHZECXTn_SGAuCB59Q-33">
+          <mxGeometry x="-0.273" y="-1" relative="1" as="geometry">
+            <mxPoint x="1.18" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-34" value="" style="endArrow=classic;html=1;entryX=0.575;entryY=0.214;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650.5" y="440" as="sourcePoint" />
+            <mxPoint x="650" y="502.8399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-35" value="" style="endArrow=classic;html=1;entryX=0.575;entryY=0.214;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470.5" y="440" as="sourcePoint" />
+            <mxPoint x="470" y="502.8399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-37" value="监测结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660.0010112218722" y="472.49133134034196" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-38" value="监测结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470.00101122187215" y="472.49133134034196" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-43" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="345" y="170" width="545" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-15" value="资产下发给工作节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="195" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-23" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-15" target="pKSHZECXTn_SGAuCB59Q-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-25" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.052;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-15" target="pKSHZECXTn_SGAuCB59Q-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-26" value="资产下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pKSHZECXTn_SGAuCB59Q-25">
+          <mxGeometry x="-0.1985" y="1" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-24" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.969;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-15" target="pKSHZECXTn_SGAuCB59Q-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-44" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Manager&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-46" value="节点结果汇总" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="195" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-32" target="pKSHZECXTn_SGAuCB59Q-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="630" />
+              <mxPoint x="860" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-31" target="pKSHZECXTn_SGAuCB59Q-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="610" />
+              <mxPoint x="836" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-30" target="pKSHZECXTn_SGAuCB59Q-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="590" />
+              <mxPoint x="793" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-57" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="207.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-58" value="influx" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-60" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="265" width="60" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-61" value="统计数据查看结果是否符合要求（数据是否等于节点数）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="331.5" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-62" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="940" y="401.5" width="140" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-63" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="430" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-64" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="430" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pKSHZECXTn_SGAuCB59Q-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="510" />
+              <mxPoint x="870" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-65" value="等待" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="490" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-67" value="处理结果数据结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="490" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-68" value="kafka" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="610" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-69" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="535" width="60" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-71" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKSHZECXTn_SGAuCB59Q-72" value="客户端消费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="750" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
