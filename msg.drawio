@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T08:48:02.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="IF4KsfvrCAt_6vHaPc4S" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T08:49:38.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="ENjDYN7YSlDfMemDlNqu" version="14.2.5" type="github">
   <diagram id="P0bgTbS592tkZ1g3cKjc" name="第 1 页">
     <mxGraphModel dx="2253" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
             <mxPoint x="370" y="258" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GcinMiUCHSIhNDMRSMAf-3" value="msg server&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;app_id和app_secret获取360家的access_toke&lt;br&gt;（每100分钟获取一次）&lt;br&gt;&lt;br&gt;&lt;br&gt;根据receiver_type获取群Id(receivers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GcinMiUCHSIhNDMRSMAf-3" value="msg server&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;app_id和app_secret获取360家的access_toke&lt;br&gt;（每100分钟获取一次）&lt;br&gt;&lt;br&gt;&lt;br&gt;根据receiver_type获取群Id(groupIds)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="10" width="120" height="330" as="geometry" />
         </mxCell>
         <mxCell id="GcinMiUCHSIhNDMRSMAf-6" value="text/link" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -40,9 +40,6 @@
         </mxCell>
         <mxCell id="GcinMiUCHSIhNDMRSMAf-8" value="360家文件上传接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="440" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GcinMiUCHSIhNDMRSMAf-10" value="receivers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="100" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GcinMiUCHSIhNDMRSMAf-16" value="access_token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="475" y="60" width="90" height="20" as="geometry" />
@@ -68,14 +65,17 @@
         <mxCell id="GcinMiUCHSIhNDMRSMAf-30" value="media_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="220" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GcinMiUCHSIhNDMRSMAf-32" value="receivers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="575" y="270" width="60" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="GcinMiUCHSIhNDMRSMAf-33" value="access_token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="290" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GcinMiUCHSIhNDMRSMAf-37" value="返回记录存mysql" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="150" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GcinMiUCHSIhNDMRSMAf-38" value="groupId&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GcinMiUCHSIhNDMRSMAf-40" value="groupId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="270" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
